@@ -1,0 +1,376 @@
+#position {
+  width: 96%;
+  height: 20px;
+  margin: 10px auto;
+  font-size: 12px;
+}
+
+#userMassage {
+  width: 96%;
+  height: 100px;
+  margin: 10px auto;
+  position: relative;
+  background-color: white;
+}
+
+#userLogo {
+  width: 100px;
+  height: 100%;
+  padding-top: 10px;
+}
+
+#msgContent {
+  width: 100px;
+  height: 70px;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+#msgContent p {
+  padding-top: 15px;
+  line-height: 16px;
+}
+
+#welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#welcome a {
+  color: blue;
+  text-decoration: none;
+}
+
+#date {
+  width: 150px;
+  position: absolute;
+  left: 900px;
+  top: -65px;
+  ;
+  position: relative;
+}
+
+#date div {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#date div p {
+  line-height: 16px;
+  margin-top: -5px;
+}
+
+#visit {
+  width: 150px;
+  position: absolute;
+  left: 1150px;
+  top: -130px;
+  ;
+  position: relative;
+}
+
+#visit div {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#visit div p {
+  line-height: 16px;
+  margin-top: -5px;
+}
+
+#main-content {
+  margin: 0 auto;
+  width: 96%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+#left-nav,
+#right-nav {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#left-nav::after {
+  content: "";
+  position: absolute;
+  left: 380px;
+  right: 0;
+  top: 0;
+  bottom: -360px;
+  background-color: #f6f8fb;
+}
+
+#right-nav::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  right: 400px;
+  top: 0;
+  bottom: -360px;
+  background-color: #f6f8fb;
+}
+
+#content {
+  flex: 1;
+  height: 100px;
+}
+
+#lesson {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+#lesson-title {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+#lesson-title::after {
+  content: "";
+  position: absolute;
+  top: 29.5px;
+  bottom: 0;
+  left: 5px;
+  ;
+  right: 25px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+#lesson-title i {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+
+#lesson-title p {
+  position: absolute;
+  left: 40px;
+  top: -10px;
+}
+
+#lesson-content {
+  width: 100%;
+  height: 200px;
+}
+
+#lesson-content::after {
+  content: "";
+  position: absolute;
+  top: 210px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f6f8fb;
+}
+
+#loginmsg {
+  background-color: white;
+}
+
+#loginmsg {
+  background-color: white;
+  height: 600px;
+}
+
+#loginmsg-title {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+#loginmsg-title::after {
+  content: "";
+  position: absolute;
+  top: 29px;
+  bottom: 0;
+  left: 5px;
+  ;
+  right: 25px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+#loginmsg-title i {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+
+#loginmsg-title p {
+  position: absolute;
+  left: 40px;
+  top: -10px;
+}
+
+#loginmsg-content {
+  width: 100%;
+  height: 200px;
+}
+
+#content {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#quickenter {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+#quickenter-title {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+#quickenter-title::after {
+  content: "";
+  position: absolute;
+  top: 29.5px;
+  bottom: 0;
+  left: 5px;
+  ;
+  right: 25px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+#quickenter-title i {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+
+#quickenter-title p {
+  position: absolute;
+  left: 40px;
+  top: -10px;
+}
+
+#quickenter-content {
+  width: 100%;
+  height: 200px;
+}
+
+#quickenter-content::after {
+  content: "";
+  position: absolute;
+  top: 210px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #f6f8fb;
+}
+
+#filedownload {
+  background-color: white;
+  height: 600px;
+  position: relative;
+}
+
+#filedownload-title {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+#filedownload-title::after {
+  content: "";
+  position: absolute;
+  top: 29px;
+  bottom: 0;
+  left: 5px;
+  ;
+  right: 25px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+#filedownload-title i {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+
+#filedownload-title p {
+  position: absolute;
+  left: 40px;
+  top: -10px;
+}
+
+#filedownload-content {
+  width: 100%;
+  height: 200px;
+}
+
+#notice {
+  width: 100%;
+  height: 500px;
+  background-color: white;
+  position: relative;
+}
+
+#notice-title {
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+
+#notice-title::after {
+  content: "";
+  position: absolute;
+  top: 29.5px;
+  bottom: 0;
+  left: 5px;
+  ;
+  right: 25px;
+  background-color: rgb(0, 0, 0, 0.3);
+}
+
+#notice-title i {
+  width: 20px;
+  height: 20px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+
+#notice-title p {
+  position: absolute;
+  left: 40px;
+  top: -10px;
+}
+
+#notice-content {
+  width: 100%;
+  height: 430px;
+}

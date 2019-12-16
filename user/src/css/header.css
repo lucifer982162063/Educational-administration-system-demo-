@@ -1,0 +1,160 @@
+div{
+  cursor: default;
+}
+#header-main {
+  width: 100%;
+  height: 130px;
+  background-color: #3f54a5;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  background-image: url(../assets/main-top-bg.png);
+}
+
+#logo {
+  width: 240px;
+  height: 80px;
+}
+
+#title {
+  flex: 1;
+  height: 80px;
+  line-height: 70px;
+  color: white;
+  position: relative;
+  padding-left: 20px;
+  font-family: "微软雅黑";
+  font-size: 22px;
+}
+
+#title::before {
+  display: block;
+  float: left;
+  position: absolute;
+  content: "";
+  top: 20px;
+  left: -5px;
+  width: 2px;
+  height: 40px;
+  background-color: #0000be;
+}
+
+#usermessage {
+  display: flex;
+  flex-direction: row;
+  justify-content: content;
+  width: 400px;
+  height: 80px;
+}
+
+#user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#userImg {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#logOut {
+  display: flex;
+  flex-direction: row;
+}
+
+#headernav {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  position: relative;
+}
+
+#headernav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #0000be;
+}
+
+#headernav div {
+  line-height: 50px;
+}
+
+#index,
+#my {
+  width: 80px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#evaluate,
+#publicService {
+  width: 110px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#index:hover,
+#my:hover,
+#evaluate:hover,
+#publicService:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+#my:hover #myList {
+  display: block;
+  z-index:10;
+}
+
+#evaluate:hover #evaluateList {
+  display: block;
+  z-index:10;
+}
+
+#publicService:hover #publicServiceList {
+  display: block;
+  z-index:10;
+}
+
+ul {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 200px;
+  list-style: none;
+  box-shadow: 0.5px 0.5px 1px 1px rgb(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+ul li {
+  font-size: 15px;
+  color: black;
+  border-top: 0.2px solid rgb(0, 0, 0, 0.3);
+  border-bottom: 0.2px solid rgb(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 35px;
+}
+
+ul li:first-child {
+  border-top: none;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+#headernav li:hover{
+  background-color: #3F54A5;
+}
